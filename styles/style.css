@@ -2,6 +2,7 @@
 
 html, body {
     height: 100vh;
+    width: 100vw;
     margin: 0;
     
     /* align-items: center; */
@@ -49,6 +50,7 @@ a {
 
 .main {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
     padding-bottom: 30px;
     justify-content: center;
@@ -97,6 +99,7 @@ h1 {
 .infos {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 36px;
 }
 
@@ -142,6 +145,7 @@ h1 {
     background-color: #3882F6;
     border-radius: 5px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
